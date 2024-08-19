@@ -1,0 +1,39 @@
+.menu-open {
+    background-color: #404244;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    /*background-color: #73185b !important;*/
+    background-color: #54708e !important;
+}
+/*[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: rgb(130, 57, 110) !important;
+    color: #fff !important;
+}*/
+
+.blue{color: #3490dc;}
+.indigo{color: #6574cd;}
+.purple{color: #9561e2;}
+.pink{color: #f66d9b;}
+.red{color: #e3342f;}
+.orange{color: #f6993f;}
+.yellow{color: #ffed4a;}
+.green{color: #38c172;}
+.teal{color: #4dc0b5;}
+.cyan{color: #6cb2eb;}
+.white{color: #fff;}
+.gray{color: #6c757d;}
+.gray-dark{color: #343a40;}
+.primary{color: #3490dc;}
+.secondary{color: #6c757d;}
+.success{color: #38c172;}
+.info{color: #6cb2eb;}
+.warning{color: #ffed4a;}
+.danger{color: #e3342f;}
+.light{color: #f8f9fa;}
+.dark{color: #343a40;}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: 1px solid #3390e2 !important;
+    background-color: #1f3f5a;
+}
+.bg-card-header{background-color: #e4ecf3;}

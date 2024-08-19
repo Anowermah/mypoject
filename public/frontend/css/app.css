@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    border-bottom: 3px solid #009a4e;
+}
+
+
+/* footer start */
+
+.footer {
+    background-color: rgb(33, 58, 33);
+}
+
+.fi a {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(#ddd 50%, red 50%);
+    background-size: 100% 200%;
+    transition: background-position 0.4s, color 0.4s;
+}
+
+.fi a:nth-child(2) {
+    color: #1976d3;
+    background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+
+.fi a:nth-child(3) {
+    color: #f44236;
+    background-image: linear-gradient(#fff 50%, #f44236 50%);
+}
+
+.fi a:hover {
+    background-position: 0% 100%;
+    color: #fff;
+}
+
+.fr img {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.footer-1 {
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+.copyright a {
+    color: rgb(210, 63, 63);
+}
+
+.fr {
+    margin-left: 20px;
+    border-bottom: rgb(166, 161, 161) 0.2px solid;
+}
+
+
+/* footer end */
+
+
+/* index css st */
+
+.porichalok-bani .row {
+    margin-bottom: 4rem;
+}
+
+.porichalok {
+    border-bottom: 1px solid red;
+    font-size: 21px;
+}
+
+.color-text {
+    font-size: 20px;
+}
+
+.porichalok-img img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+}
+
+.porichalok-description p {
+    text-align: justify;
+}
+
+.read-more {
+    color: red;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+/* index css end */
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* map cstm css st */
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 40.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* map cstm css end */
+
+
+/* forms css st */
+
+.download-btn a span {
+    border-right: 1px solid gray;
+    padding: 7px;
+}
+
+.download-btn a svg:hover {
+    opacity: 0.5;
+}
+
+
+/* forms css end */
+
+
+/*archives css st */
+
+.thirty {
+    max-width: 50%;
+    margin-left: 20%;
+}
+
+
+/* 
+archives css end*/
+
+
+/* news_gellery css st */
+
+.news_img {
+    border: 5px solid #009a4e;
+    margin: 5px;
+    padding: 5px;
+    width: 23%;
+}
+
+.news_gellery img:hover {
+    transition: transform .3s;
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.desc h5 a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nws_glry img {
+    cursor: pointer;
+}
+
+
+/* news_gellery css end */
+
+
+/* library css start */
+
+.Library .card {
+    border: 8px solid #009a4e;
+    cursor: pointer;
+}
+
+.library-text a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* library css end */
+
+
+/* central image css start */
+
+.central img {
+    border: 8px solid #009a4e;
+}
+
+.central img:hover {
+    transition: transform .4s;
+    transform: scale(1.1);
+}
+
+
+/* central image css end*/
+
+@media screen and (max-width: 768px) {
+    .contact-info h5 span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 769px) {}
+
+@media screen and (min-width: 993px) {}
+
+.mnu.nav-item .nav-link:hover {
+    color: #009a4e;
+}

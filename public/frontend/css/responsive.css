@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .dd-menu a:onclick {
+    background: rgb(6, 184, 74);
+    color: #fff;
+  }
+  .main-nav .nav-item .nav-link:onclick {
+    color: rgb(6, 184, 74);
+    display: block;
+  }
+  
+  .dd-btn:onclick .dd-menu {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+  }
+}
