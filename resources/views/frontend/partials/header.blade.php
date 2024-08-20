@@ -23,8 +23,10 @@
                                 <i class="fa fa-caret-down"></i>
                             </a>
                             <div class="dd-menu">
-                                <a href="">Jamiyat Shubbane Ahl-Al-Hadith Bangladesh</a>
-                                <a href="">Concern Institutions</a>
+                                <a target="-blank" href="https://jamiyat.org.bd">Jamiyat</a>
+                                <a target="-blank" href="https://shubbanbd.org">Shubbane</a>
+                                <a target="-blank" href="https://weeklyarafat.com">Weekly Arafat</a>
+                                <a target="-blank" href="https://jamiyat.org.bd/masik-tarjumanul-hadith/">Tarjumanul Hadith</a>
                             </div>
                         </li>
                         <li class="nav-item dd-btn">
@@ -44,6 +46,8 @@
                             </a>
                             <div class="dd-menu">
                                 <a href="#">Books/Articles</a>
+                                <a href="#">Articles</a>
+                                <a href="#">Liflat</a>
                                 <!-- <a href="#">blog details</a> -->
                             </div>
                         </li>
